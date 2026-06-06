@@ -2,10 +2,8 @@
 
 import operator
 from typing import TypedDict, Annotated, List
-
 from dotenv import load_dotenv
 from pydantic import BaseModel, Field
-
 from langsmith import traceable
 from langchain_openai import ChatOpenAI
 from langgraph.graph import StateGraph, START, END
@@ -27,7 +25,6 @@ essay2 = """India and AI Time
 Now world change very fast because new tech call Artificial Intel… something (AI). India also want become big in this AI thing. If work hard, India can go top. But if no careful, India go back.
 
 India have many good. We have smart student, many engine-ear, and good IT peoples. Big company like TCS, Infosys, Wipro already use AI. Government also do program “AI for All”. It want AI in farm, doctor place, school and transport.
-
 In farm, AI help farmer know when to put seed, when rain come, how stop bug. In health, AI help doctor see sick early. In school, AI help student learn good. Government office use AI to find bad people and work fast.
 
 But problem come also. First is many villager no have phone or internet. So AI not help them. Second, many people lose job because AI and machine do work. Poor people get more bad.
